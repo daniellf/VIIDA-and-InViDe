@@ -4,7 +4,7 @@ This repository contains the proposed methods of the paper [VIIDA and InViDe: Co
 **Code and details about InViDe metric will be available soon!**
 
 ## Latest Updates
-- **Mar-19-25:** The **VIIDA** interactive demo is now available! Try it out [here](./viida.ipynb)! 🔥
+- **Mar-19-25:** The **VIIDA** demo is now available! Try it out [here](./viida.ipynb)! 🔥
 - **Dec-11-24:** The **VIIDA and InViDe paper** has been published in the journal Disability and Rehabilitation: Assistive Technology! 🎊
 - **Nov-22-24:** The **VIIDA and InViDe paper** was accepted for publication in the journal Disability and Rehabilitation: Assistive Technology! 🌟
   
@@ -152,7 +152,7 @@ As a result, **VIIDA** generates an output `.json` file named `paragraphs.json`.
 [{"image_id": "gBGBkllBMyg#83640.jpg", "paragraph": "A brown woman with surprised expression. She has brown eyes and black long hair. She is wearing a white blouse, makeup and silver necklace. She is in the office, with a plant in the background."}]
 ```
 ### 3) Inference demo:
-If you prefer a more interactive approach, try running our interactive demo using [Jupyter Notebook](./viida.ipynb)!
+If you prefer a more interactive approach, try running our demo using [Jupyter Notebook](./viida.ipynb)!
 
 ## InViDe - Step by Step
 ...
