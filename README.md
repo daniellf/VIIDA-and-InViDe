@@ -127,7 +127,7 @@ The following arguments can be provided: `--path_dataset`, `--img_format`, `--de
 - `--ttext_yes`: Similarity threshold for validating the content described in captions using the **VQA** model. **Default:** `0.6`
 - `--dense_model`: Name of the dense captioning model used (e.g., `densecap`, `grit`, or `none` if no model was used). **Default:** `'none'`
 - `--dense_file`: Path to the `.json` file containing extracted dense captions. **Default:** `'./my_results.json'`
-- `--model_vqa_path`: Path to the BLIP-VQA `pth` file. **Default:** `'./model_base_vqa_capfilt_large.pth'`
+- `--model_vqa_path`: Path to the BLIP-VQA `pth` file. **Default:** `'./BLIP/model_base_vqa_capfilt_large.pth'`
 
 ### 2) Running VIIDA-Dense or VIIDA-GRIT on Your Images
 
