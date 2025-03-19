@@ -4,9 +4,9 @@ This repository contains the proposed methods of the paper [VIIDA and InViDe: Co
 **Code and details about InViDe metric will be available soon!**
 
 ## Latest Updates
-- **Mar-19-25:** The **VIIDA** interactive demo is released [demo link]! 🔥
+- **Mar-19-25:** The **VIIDA** interactive demo is now available! Try it out [here](./viida.ipynb)! 🔥
 - **Dec-11-24:** The **VIIDA and InViDe paper** has been published in the journal Disability and Rehabilitation: Assistive Technology! 🎊
-- **Nov-22-24:** The **VIIDA and InViDe paper** was accepted for publication in the journal Disability and Rehabilitation: Assistive Technology! 🌟 
+- **Nov-22-24:** The **VIIDA and InViDe paper** was accepted for publication in the journal Disability and Rehabilitation: Assistive Technology! 🌟
   
 ## Overview
 Existing image description methods when used as Assistive Technologies often fall short in meeting the needs of blind or low vision (BLV) individuals. They tend to either compress all visual elements into brief captions, create disjointed sentences for each image region, or provide extensive descriptions. To address these limitations, we introduce **VIIDA**, a procedure aimed at the Visually Impaired which implements an Image Description Approach, focusing on webinar scenes. We also propose **InViDe**, an Inclusive Visual Description metric, a novel approach for evaluating image descriptions targeting BLV people. We reviewed existing methods and developed **VIIDA** by integrating a multimodal Visual Question Answering model with Natural Language Processing (NLP) filters. A scene graph-based algorithm was then applied to structure final paragraphs. By employing NLP tools, **InViDe** conducts a multicriteria analysis based on accessibility standards and guidelines. Experiments statistically demonstrate that **VIIDA** generates descriptions closely aligned with image content as well as human-written linguistic features, and that suit BLV needs. **InViDe** offers valuable insights into the behaviour of the compared methods – among them, state-of-the-art methods based on Large Language Models – across diverse criteria. **VIIDA** and **InViDe** emerge as efficient Assistive Technologies, combining Artificial Intelligence models and computational/mathematical techniques to generate and evaluate image descriptions for the visually impaired with low computational costs. This work is anticipated to inspire further research and application development in the domain of Assistive Technologies.
@@ -152,7 +152,7 @@ As a result, **VIIDA** generates an output `.json` file named `paragraphs.json`.
 [{"image_id": "gBGBkllBMyg#83640.jpg", "paragraph": "A brown woman with surprised expression. She has brown eyes and black long hair. She is wearing a white blouse, makeup and silver necklace. She is in the office, with a plant in the background."}]
 ```
 ### 3) Inference demo:
-If you prefer a more interactive approach, try running our interactive demo using [Jupyter Notebook]!
+If you prefer a more interactive approach, try running our interactive demo using [Jupyter Notebook](./viida.ipynb)!
 
 ## InViDe - Step by Step
 ...
