@@ -4,6 +4,7 @@ This repository contains the proposed methods of the paper [VIIDA and InViDe: Co
 **Code and details about InViDe metric will be available soon!**
 
 ## Latest Updates
+- **Mar-21-25:** The **VIIDA** code is released! 🚀
 - **Mar-19-25:** The **VIIDA** demo is now available! Try it out [here](./viida.ipynb)! 🔥
 - **Dec-11-24:** The **VIIDA and InViDe paper** has been published in the journal Disability and Rehabilitation: Assistive Technology! 🎊
 - **Nov-22-24:** The **VIIDA and InViDe paper** was accepted for publication in the journal Disability and Rehabilitation: Assistive Technology! 🌟
