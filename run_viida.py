@@ -99,7 +99,6 @@ if dense_used:
     tokenizer_roberta = AutoTokenizer.from_pretrained(MODEL_NAME)
     model_roberta = AutoModelForSequenceClassification.from_pretrained(MODEL_NAME)
 else:
-    MODEL_NAME = ""
     tokenizer_roberta = ""
     model_roberta = ""
 
