@@ -94,9 +94,14 @@ parser = sng_parser.Parser('spacy', model=model_name)
 phoney = BigPhoney()
 inflect = inflect.engine()
 
-MODEL_NAME = "textattack/roberta-base-CoLA"
-tokenizer_roberta = AutoTokenizer.from_pretrained(MODEL_NAME)
-model_roberta = AutoModelForSequenceClassification.from_pretrained(MODEL_NAME)
+if dense_used:
+    MODEL_NAME = "textattack/roberta-base-CoLA"
+    tokenizer_roberta = AutoTokenizer.from_pretrained(MODEL_NAME)
+    model_roberta = AutoModelForSequenceClassification.from_pretrained(MODEL_NAME)
+else:
+    MODEL_NAME = ""
+    tokenizer_roberta = ""
+    model_roberta = ""
 
 model_vqa = blip_vqa(pretrained=model_path, image_size=480, vit='base')
 model_vqa.eval()
