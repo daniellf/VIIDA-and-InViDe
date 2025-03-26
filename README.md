@@ -54,6 +54,9 @@ conda activate my_env
 
 After navigating to the `VIIDA-and-InViDe` folder, create a `webinar_dataset` folder and place the images you want to process there. If you already have another directory for this, update the `--path_dataset` argument when running the **VIIDA** script.
 
+> [!TIP]
+> In this work, we use the [webinar dataset](https://github.com/MaVILab-UFV/presenter-centric-dataset-SIBGRAPI-2023) proposed by [Ferreira et al.](https://ieeexplore.ieee.org/document/10347135), which contains images of presenters in the foreground, typically found in webinars, talk shows, and news.
+
 We use **BLIP** as the **VQA** model, so it is required for **VIIDA** to work properly:
 
 ```bash
