@@ -57,7 +57,7 @@ After navigating to the `VIIDA-and-InViDe` folder, create a `webinar_dataset` fo
 > [!TIP]
 > In this work, we use the [webinar dataset](https://github.com/MaVILab-UFV/presenter-centric-dataset-SIBGRAPI-2023) proposed by [Ferreira et al.](https://ieeexplore.ieee.org/document/10347135), which contains images of presenters in the foreground, typically found in webinars, talk shows, and news.
 
-We use **BLIP** as the **VQA** model, so it is required for **VIIDA** to work properly:
+We use [**BLIP**](https://github.com/salesforce/BLIP.git) as the **VQA** model, so it is required for **VIIDA** to work properly:
 
 ```bash
 git clone https://github.com/salesforce/BLIP.git
