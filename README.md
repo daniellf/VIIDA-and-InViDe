@@ -56,7 +56,7 @@ conda activate my_env
 After navigating to the `VIIDA-and-InViDe` folder, create a `webinar_dataset` folder and place the images you want to process there. If you already have another directory for this, update the `--path_dataset` argument when running the **VIIDA** script.
 
 > [!TIP]
-> In this work, we use the [webinar dataset](https://github.com/MaVILab-UFV/presenter-centric-dataset-SIBGRAPI-2023) proposed by [Ferreira et al.](https://ieeexplore.ieee.org/document/10347135), which contains images of presenters in the foreground, typically found in webinars, talk shows, and news.
+> In this work, we use the [webinar dataset](https://github.com/MaVILab-UFV/presenter-centric-dataset-SIBGRAPI-2023) proposed by [Ferreira *et al.*](https://ieeexplore.ieee.org/document/10347135), which contains images of presenters in the foreground, typically found in webinars, talk shows, and news.
 
 We use [**BLIP**](https://github.com/salesforce/BLIP.git) as the **VQA** model, so it is required for **VIIDA** to work properly:
 
@@ -143,7 +143,7 @@ As a result, **VIIDA** generates an output `.json` file named `paragraphs.json`.
 ### 2) Running VIIDA-Dense or VIIDA-GRIT on Your Images
 
 > [!CAUTION]
-> [DenseCap](https://github.com/jcjohnson/densecap) and [GRIT](https://github.com/JialianW/GRiT) are independent models and are not part of our approach. Therefore, if you want to run **VIIDA** with the Visual Information Extraction stage, you need to run one of these dense captioning models first and provide the generated `.json` file to the `--dense_file` argument.
+> [DenseCap](https://github.com/jcjohnson/densecap) and [GRIT](https://github.com/JialianW/GRiT) are independent models and are not part of our approach. Therefore, if you want to run **VIIDA** with the complementary approach of the Visual Information Extraction stage, you need to run one of these dense captioning models first and provide the generated `.json` file to the `--dense_file` argument.
 
 > [!WARNING]
 > All images in the `webinar_dataset` folder must have been processed by the dense captioning model and included in the `.json` file.
