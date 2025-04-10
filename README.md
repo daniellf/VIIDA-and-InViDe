@@ -160,6 +160,8 @@ If you choose this version of **VIIDA**, make sure to adjust the following argum
 python3 run_viida.py --dense_captioning True --dense_model 'densecap' --dense_file './results_densecap.json' 
 ```
 
+As a result, **VIIDA-Dense** and **VIIDA-GRIT** generates an output `.json` file named `paragraphs.json` just like **VIIDA**.
+
 See a visual example below:
 
 <p align="center">
