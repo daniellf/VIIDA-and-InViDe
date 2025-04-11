@@ -140,7 +140,7 @@ As a result, **VIIDA** generates an output `.json` file named `paragraphs.json`.
 [{"image_id": "gBGBkllBMyg#83640.jpg", "paragraph": "A brown woman with surprised expression. She has brown eyes and black long hair. She is wearing a white blouse, makeup and silver necklace. She is in the office, with a plant in the background."}]
 ```
 
-See a visual example below:
+See some visual examples below:
 
 <p align="center">
   <img src="https://github.com/daniellf/VIIDA-and-InViDe/blob/main/viida_example_1.jpg" alt="Example Output" width="900"/>
@@ -162,7 +162,7 @@ python3 run_viida.py --dense_captioning True --dense_model 'densecap' --dense_fi
 
 As a result, **VIIDA-Dense** and **VIIDA-GRIT** generates an output `.json` file named `paragraphs.json` just like **VIIDA**.
 
-See a visual example below:
+See some visual examples below:
 
 <p align="center">
   <img src="https://github.com/daniellf/VIIDA-and-InViDe/blob/main/viida_example_2.jpg" alt="Example Output" width="900"/>
